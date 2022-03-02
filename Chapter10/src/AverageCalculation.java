@@ -21,9 +21,6 @@ public class AverageCalculation {
 	private JTextField GR2;
 	private JTextField GR3;
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -37,7 +34,7 @@ public class AverageCalculation {
 		});
 	}
 
-	
+
 	public AverageCalculation() {
 		initialize();
 	}
