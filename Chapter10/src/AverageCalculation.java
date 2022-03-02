@@ -37,9 +37,7 @@ public class AverageCalculation {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+	
 	public AverageCalculation() {
 		initialize();
 	}
