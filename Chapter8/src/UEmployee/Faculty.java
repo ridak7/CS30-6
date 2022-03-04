@@ -1,5 +1,11 @@
 package UEmployee;
 
-public abstract class Faculty {
-	String firstName, lastName;
+public  class Faculty {
+	String storing;
+	String departmentname;
+	
+	public Faculty(String storing,String departmentname ) {
+		
+		
+	}
 }
