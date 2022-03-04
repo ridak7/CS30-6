@@ -1,6 +1,6 @@
 package UEmployee;
 
-public abstract class Employee 
+public class Employee 
 {
     String firstName, lastName;
     
@@ -15,6 +15,5 @@ public abstract class Employee
         return(firstName+" "+lastName);
     }
     
-    abstract double pay(double period);
 
 }
