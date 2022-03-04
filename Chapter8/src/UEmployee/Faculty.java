@@ -1,5 +1,5 @@
 package UEmployee;
 
-public class Faculty {
-
+public abstract class Faculty {
+	String firstName, lastName;
 }
