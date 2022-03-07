@@ -2,7 +2,7 @@ package UEmployee;
 
 public class Employee 
 {
-    String firstName, lastName;
+    private String firstName, lastName;
     
     public Employee(String fName, String lName)
     {
@@ -14,6 +14,4 @@ public class Employee
     {
         return(firstName+" "+lastName);
     }
-    
-
 }
