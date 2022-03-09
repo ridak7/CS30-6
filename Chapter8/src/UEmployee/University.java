@@ -9,8 +9,8 @@ public class University {
 	{
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter first name");
-		String firstName = input.next("Enter first name: ");
+		System.out.print("Enter first name: ");
+		String firstName = input.next();
 		
 		//record the first name
 		
