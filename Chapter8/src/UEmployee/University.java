@@ -7,19 +7,27 @@ public class University {
 	
 	public static Employee createemployee() 
 	{
-		String firstName = ("Enter first name: ");
-		String lastName = ("Enter last name: ");
-		int salary = Integer.valueOf("Enter salary: ");
-		
 		Scanner input = new Scanner(System.in);
 		
-		//System.out.println(firstName);
+		System.out.print("Enter first name");
+		String firstName = input.next("Enter first name: ");
 		
-		return (firstName + " " + lastName + "salary is" + salary);
+		//record the first name
 		
+		String lastName = ("Enter last name: ");
+		
+		//record the last name
+		
+		
+		int salary = Integer.valueOf("Enter salary: ");
+		
+		//record the salary
+		
+		
+		
+
+		//return (firstName + " " + lastName + "salary is" + salary);
 	}
-	
-	
 	
 	
 	
