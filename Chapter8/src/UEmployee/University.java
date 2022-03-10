@@ -41,9 +41,7 @@ public class University {
 		
 		eX1 = createemployee();
 		System.out.print(eX1);
-		
-		eX2 = createemployee();
-		System.out.print(eX2);
+
 		
 	}
 }
