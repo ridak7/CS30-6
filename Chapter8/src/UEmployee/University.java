@@ -35,15 +35,15 @@ public class University {
 	}
 	
 	
-	
-	
-	
 	public static void main (String[] args)
 	{
 		Employee eX1,eX2;
 		
 		eX1 = createemployee();
 		System.out.print(eX1);
+		
+		eX2 = createemployee();
+		System.out.print(eX2);
 		
 	}
 }
