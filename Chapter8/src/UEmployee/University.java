@@ -27,13 +27,11 @@ public class University {
 			return (new Faculty(fName, lName, salary, dname));
 				
 		}
-		else if(position.equalsIgnoreCase("S")) {
+		else {
 			System.out.println("What is your job title: ");
 			String tittle = input.next();
 			return (new Staff(fName, lName, tittle, salary));
 		}
-
-		//return (fName + " " + lName + "salary is " + salary);
 	}
 	
 	
@@ -42,8 +40,10 @@ public class University {
 	
 	public static void main (String[] args)
 	{
-		//Employee e = new Employee();
+		Employee eX1,eX2;
 		
-		//System.out.println(e.salary);
+		eX1 = createemployee();
+		System.out.print(eX1);
+		
 	}
 }

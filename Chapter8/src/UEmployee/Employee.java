@@ -14,7 +14,7 @@ public class Employee
     
     public String toString()
     {
-        return(firstName+" "+lastName + "salary is " + salary);
+        return(firstName+" "+ lastName + " salary is " + salary);
     }
     
 }
