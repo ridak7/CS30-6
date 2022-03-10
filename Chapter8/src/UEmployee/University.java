@@ -10,10 +10,10 @@ public class University {
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Enter first name: ");
-		String firstName = input.next();
+		String fName = input.next();
 		
 		System.out.println("Enter last name: ");
-		String lastName = input.next();
+		String lName = input.next();
 		
 		System.out.println("Enter salary: ");
 		int salary = input.nextInt();
@@ -23,14 +23,17 @@ public class University {
 		if (position.equalsIgnoreCase("F"))
 		{
 			System.out.println("What is you department name: ");
-			String department = input.next();
+			String dname = input.next();
+			return (new Faculty(fName, lName, salary, dname));
+				
 		}
 		else if(position.equalsIgnoreCase("S")) {
 			System.out.println("What is your job title: ");
 			String tittle = input.next();
+			return (new Employee(fName,lName,salary));
 		}
 
-		//return (firstName + " " + lastName + "salary is " + salary);
+		//return (fName + " " + lName + "salary is " + salary);
 	}
 	
 	
