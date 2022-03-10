@@ -18,12 +18,13 @@ public class University {
 		System.out.print("Enter salary: ");
 		int salary = input.nextInt();
 		
-		//record the salary
-		
-		
-		
+		System.out.print("Are you part of the Staff or Faculty(S or F): ");
+		String position = input.next();
+		if (position = "F") {
+			
+		}
 
-		//return (firstName + " " + lastName + "salary is" + salary);
+		//return (firstName + " " + lastName + "salary is " + salary);
 	}
 	
 	
