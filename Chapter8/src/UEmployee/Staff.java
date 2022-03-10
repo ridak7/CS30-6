@@ -6,7 +6,6 @@ public class Staff extends Employee {
 	{
 		super(fName,lName,salary);
 		jobtitle = title;
-		//memberstore = storing;
 	}
 	
 	public String tostring() 

@@ -29,8 +29,8 @@ public class University {
 		}
 		else {
 			System.out.println("What is your job title: ");
-			String tittle = input.next();
-			return (new Staff(fName, lName, tittle, salary));
+			String title = input.next();
+			return (new Staff(fName, lName, title, salary));
 		}
 	}
 	
