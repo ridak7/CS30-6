@@ -1,10 +1,11 @@
 package UEmployee;
 
-public class Staff {
+public class Staff extends Employee {
 	String jobtitle, memberstore;
 	
-	public Staff(String fName, String lName, String title,double salary ) 
+	public Staff(String fName, String lName, String title,double salary) 
 	{
+		super(fName,lName,salary);
 		jobtitle = title;
 		//memberstore = storing;
 	}

@@ -30,7 +30,7 @@ public class University {
 		else if(position.equalsIgnoreCase("S")) {
 			System.out.println("What is your job title: ");
 			String tittle = input.next();
-			return (new Staff(fName,lName,tittle,salary));
+			return (new Staff(fName, lName, tittle, salary));
 		}
 
 		//return (fName + " " + lName + "salary is " + salary);
