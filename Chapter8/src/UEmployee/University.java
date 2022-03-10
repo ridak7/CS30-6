@@ -12,14 +12,11 @@ public class University {
 		System.out.print("Enter first name: ");
 		String firstName = input.next();
 		
-		//record the first name
+		System.out.print("Enter last name: ");
+		String lastName = input.next();
 		
-		String lastName = ("Enter last name: ");
-		
-		//record the last name
-		
-		
-		int salary = Integer.valueOf("Enter salary: ");
+		System.out.print("Enter salary: ");
+		int salary = input.nextInt();
 		
 		//record the salary
 		
